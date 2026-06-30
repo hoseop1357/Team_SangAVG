@@ -1,0 +1,3212 @@
+[
+  {
+    "id": "tgt_0001",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2027년 7월에 개최하는 학술대회를 찾아줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE conferenceStartDate BETWEEN '2027-07-01' AND '2027-07-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0002",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2023년에 개최하는 학술대회를 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE conferenceStartDate BETWEEN '2023-01-01' AND '2023-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0003",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2018년에 사전등록 마감하는 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, generalPreRegEndDate FROM sc_conf_conference WHERE generalPreRegEndDate BETWEEN '2018-01-01' AND '2018-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0004",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2024년에 논문 마감하는 학술대회 리스트를 보여줘",
+    "sql": "SELECT nameKor, submissionEndDate FROM sc_conf_conference WHERE submissionEndDate BETWEEN '2024-01-01' AND '2024-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0005",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2020년 9월에 사전등록 마감하는 학술대회를 찾아줘",
+    "sql": "SELECT nameKor, generalPreRegEndDate FROM sc_conf_conference WHERE generalPreRegEndDate BETWEEN '2020-09-01' AND '2020-09-30' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0006",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2022년 12월에 사전등록 마감하는 학술대회를 조회해줘",
+    "sql": "SELECT nameKor, generalPreRegEndDate FROM sc_conf_conference WHERE generalPreRegEndDate BETWEEN '2022-12-01' AND '2022-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0007",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2022년에 논문 마감하는 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, submissionEndDate FROM sc_conf_conference WHERE submissionEndDate BETWEEN '2022-01-01' AND '2022-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0008",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2022년 8월에 사전등록 마감하는 학술대회를 조회해줘",
+    "sql": "SELECT nameKor, generalPreRegEndDate FROM sc_conf_conference WHERE generalPreRegEndDate BETWEEN '2022-08-01' AND '2022-08-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0009",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2027년 8월에 사전등록 마감하는 학술대회를 보여줘",
+    "sql": "SELECT nameKor, generalPreRegEndDate FROM sc_conf_conference WHERE generalPreRegEndDate BETWEEN '2027-08-01' AND '2027-08-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0010",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2020년 5월에 사전등록 마감하는 학술대회를 보여줘",
+    "sql": "SELECT nameKor, generalPreRegEndDate FROM sc_conf_conference WHERE generalPreRegEndDate BETWEEN '2020-05-01' AND '2020-05-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0011",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2022년에 논문 마감하는 학술대회를 조회해줘",
+    "sql": "SELECT nameKor, submissionEndDate FROM sc_conf_conference WHERE submissionEndDate BETWEEN '2022-01-01' AND '2022-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0012",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2021년 7월에 개최하는 학술대회 리스트를 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE conferenceStartDate BETWEEN '2021-07-01' AND '2021-07-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0013",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2026년에 초록 마감하는 학술대회를 찾아줘",
+    "sql": "SELECT nameKor, absEndDate FROM sc_conf_conference WHERE absEndDate BETWEEN '2026-01-01' AND '2026-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0014",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2025년에 사전등록 마감하는 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, generalPreRegEndDate FROM sc_conf_conference WHERE generalPreRegEndDate BETWEEN '2025-01-01' AND '2025-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0015",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2022년 4월에 초록 마감하는 학술대회를 보여줘",
+    "sql": "SELECT nameKor, absEndDate FROM sc_conf_conference WHERE absEndDate BETWEEN '2022-04-01' AND '2022-04-30' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0016",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2027년 9월에 논문 마감하는 학술대회를 보여줘",
+    "sql": "SELECT nameKor, submissionEndDate FROM sc_conf_conference WHERE submissionEndDate BETWEEN '2027-09-01' AND '2027-09-30' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0017",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2024년 8월에 논문 마감하는 학술대회를 보여줘",
+    "sql": "SELECT nameKor, submissionEndDate FROM sc_conf_conference WHERE submissionEndDate BETWEEN '2024-08-01' AND '2024-08-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0018",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2022년 12월에 논문 마감하는 학술대회를 알려줘",
+    "sql": "SELECT nameKor, submissionEndDate FROM sc_conf_conference WHERE submissionEndDate BETWEEN '2022-12-01' AND '2022-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0019",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2023년에 개최하는 학술대회를 찾아줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE conferenceStartDate BETWEEN '2023-01-01' AND '2023-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0020",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2020년 8월에 초록 마감하는 학술대회를 보여줘",
+    "sql": "SELECT nameKor, absEndDate FROM sc_conf_conference WHERE absEndDate BETWEEN '2020-08-01' AND '2020-08-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0021",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2027년에 논문 마감하는 학술대회를 알려줘",
+    "sql": "SELECT nameKor, submissionEndDate FROM sc_conf_conference WHERE submissionEndDate BETWEEN '2027-01-01' AND '2027-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0022",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2022년 5월에 초록 마감하는 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, absEndDate FROM sc_conf_conference WHERE absEndDate BETWEEN '2022-05-01' AND '2022-05-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0023",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2026년 1월에 초록 마감하는 학술대회를 조회해줘",
+    "sql": "SELECT nameKor, absEndDate FROM sc_conf_conference WHERE absEndDate BETWEEN '2026-01-01' AND '2026-01-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0024",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2022년에 초록 마감하는 학술대회 리스트를 보여줘",
+    "sql": "SELECT nameKor, absEndDate FROM sc_conf_conference WHERE absEndDate BETWEEN '2022-01-01' AND '2022-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0025",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2019년에 개최하는 학술대회 리스트를 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE conferenceStartDate BETWEEN '2019-01-01' AND '2019-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0026",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2025년 1월에 사전등록 마감하는 학술대회를 보여줘",
+    "sql": "SELECT nameKor, generalPreRegEndDate FROM sc_conf_conference WHERE generalPreRegEndDate BETWEEN '2025-01-01' AND '2025-01-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0027",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2025년에 개최하는 학술대회 리스트를 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE conferenceStartDate BETWEEN '2025-01-01' AND '2025-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0028",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2025년에 개최하는 학술대회를 찾아줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE conferenceStartDate BETWEEN '2025-01-01' AND '2025-12-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0029",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2018년 10월에 초록 마감하는 학술대회를 보여줘",
+    "sql": "SELECT nameKor, absEndDate FROM sc_conf_conference WHERE absEndDate BETWEEN '2018-10-01' AND '2018-10-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0030",
+    "pattern": 1,
+    "pattern_name": "날짜 범위 (기간 조회)",
+    "question": "2019년 7월에 초록 마감하는 학술대회를 조회해줘",
+    "sql": "SELECT nameKor, absEndDate FROM sc_conf_conference WHERE absEndDate BETWEEN '2019-07-01' AND '2019-07-31' LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0031",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 등록비 항목의 개수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_fee LIMIT 100;",
+    "tables": [
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0032",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "주문의 평균 금액이 궁금해",
+    "sql": "SELECT AVG(price) AS avg_price FROM sc_user_orders LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0033",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 등록자 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0034",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 회원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0035",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 등록비 항목은 몇 개인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_fee LIMIT 100;",
+    "tables": [
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0036",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "주문의 최대 금액이 궁금해",
+    "sql": "SELECT MAX(price) AS max_price FROM sc_user_orders LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0037",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 등록비 항목 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_fee LIMIT 100;",
+    "tables": [
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0038",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "주문의 평균 금액을 알려줘",
+    "sql": "SELECT AVG(price) AS avg_price FROM sc_user_orders LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0039",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "주문의 최대 금액은?",
+    "sql": "SELECT MAX(price) AS max_price FROM sc_user_orders LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0040",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "결제 확인된 주문의 총 금액을 알려줘",
+    "sql": "SELECT SUM(price) AS total FROM sc_user_orders WHERE confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0041",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "결제 확인된 주문의 총 금액이 궁금해",
+    "sql": "SELECT SUM(price) AS total FROM sc_user_orders WHERE confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0042",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 회원의 최대 마일리지를 알려줘",
+    "sql": "SELECT MAX(mileage) AS max_mileage FROM sc_users LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0043",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 회원의 평균 마일리지를 보여줘",
+    "sql": "SELECT AVG(mileage) AS avg_mileage FROM sc_users LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0044",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 회원 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0045",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "주문의 평균 금액은 무엇인가요?",
+    "sql": "SELECT AVG(price) AS avg_price FROM sc_user_orders LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0046",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "주문의 최대 금액을 보여줘",
+    "sql": "SELECT MAX(price) AS max_price FROM sc_user_orders LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0047",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "서로 다른 소속 기관은 몇 건이야?",
+    "sql": "SELECT COUNT(DISTINCT institution) AS cnt FROM sc_conf_registrant LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0048",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 등록자 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0049",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 학술대회는 몇 건이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_conference LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0050",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "주문의 최대 금액을 알려줘",
+    "sql": "SELECT MAX(price) AS max_price FROM sc_user_orders LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0051",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 회원의 최대 마일리지는?",
+    "sql": "SELECT MAX(mileage) AS max_mileage FROM sc_users LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0052",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 회원의 최대 마일리지를 보여줘",
+    "sql": "SELECT MAX(mileage) AS max_mileage FROM sc_users LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0053",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 학술대회는 몇 개인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_conference LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0054",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 회원 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0055",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "전체 등록자 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0056",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "등록비의 평균 금액이 궁금해",
+    "sql": "SELECT AVG(amount) AS avg_amount FROM sc_conf_fee LIMIT 100;",
+    "tables": [
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0057",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "서로 다른 소속 기관 건수를 알려줘",
+    "sql": "SELECT COUNT(DISTINCT institution) AS cnt FROM sc_conf_registrant LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0058",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "결제 확인된 주문의 총 금액을 보여줘",
+    "sql": "SELECT SUM(price) AS total FROM sc_user_orders WHERE confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0059",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "등록비의 평균 금액을 보여줘",
+    "sql": "SELECT AVG(amount) AS avg_amount FROM sc_conf_fee LIMIT 100;",
+    "tables": [
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0060",
+    "pattern": 2,
+    "pattern_name": "집계 (COUNT, SUM, AVG)",
+    "question": "등록비의 평균 금액은 무엇인가요?",
+    "sql": "SELECT AVG(amount) AS avg_amount FROM sc_conf_fee LIMIT 100;",
+    "tables": [
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0061",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "활성 승인 대기 중인 마일리지 5000 이상인 회원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE enabled = 1 AND approve_ready = 1 AND mileage >= 5000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0062",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인된 활성 승인 대기 중인 마일리지 2000 이상인 회원 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approved = 1 AND enabled = 1 AND approve_ready = 1 AND mileage >= 2000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0063",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인된 회비가 유효한 활성 마일리지 1000 이상인 회원의 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approved = 1 AND membership_date >= CURDATE() AND enabled = 1 AND mileage >= 1000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0064",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 회비가 유효한 활성 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND membership_date >= CURDATE() AND enabled = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0065",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "활성 승인 대기 중인 회비가 유효한 회원 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE enabled = 1 AND approve_ready = 1 AND membership_date >= CURDATE() LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0066",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인된 회비가 유효한 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approved = 1 AND membership_date >= CURDATE() LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0067",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "회비가 유효한 승인 대기 중인 마일리지 3000 이상인 회원 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE membership_date >= CURDATE() AND approve_ready = 1 AND mileage >= 3000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0068",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인된 활성 회원 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approved = 1 AND enabled = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0069",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 회비가 유효한 마일리지 1500 이상인 회원 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND membership_date >= CURDATE() AND mileage >= 1500 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0070",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 승인된 활성 회원 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND approved = 1 AND enabled = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0071",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "활성 승인된 마일리지 3000 이상인 회원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE enabled = 1 AND approved = 1 AND mileage >= 3000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0072",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인된 활성 회비가 유효한 회원의 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approved = 1 AND enabled = 1 AND membership_date >= CURDATE() LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0073",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "활성 승인 대기 중인 회비가 유효한 마일리지 7000 이상인 회원은 총 몇 명이지?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE enabled = 1 AND approve_ready = 1 AND membership_date >= CURDATE() AND mileage >= 7000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0074",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 활성 승인된 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND enabled = 1 AND approved = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0075",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "활성 승인 대기 중인 승인된 마일리지 5000 이상인 회원 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE enabled = 1 AND approve_ready = 1 AND approved = 1 AND mileage >= 5000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0076",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 회비가 유효한 승인된 마일리지 100 이상인 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND membership_date >= CURDATE() AND approved = 1 AND mileage >= 100 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0077",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인된 활성 승인 대기 중인 회원 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approved = 1 AND enabled = 1 AND approve_ready = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0078",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "활성 승인 대기 중인 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE enabled = 1 AND approve_ready = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0079",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 활성 마일리지 3000 이상인 회원 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND enabled = 1 AND mileage >= 3000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0080",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "회비가 유효한 승인 대기 중인 회원 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE membership_date >= CURDATE() AND approve_ready = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0081",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 회비가 유효한 승인된 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND membership_date >= CURDATE() AND approved = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0082",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "활성 회비가 유효한 승인된 마일리지 300 이상인 회원은 총 몇 명이지?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE enabled = 1 AND membership_date >= CURDATE() AND approved = 1 AND mileage >= 300 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0083",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 승인된 회원 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND approved = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0084",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "회비가 유효한 승인된 마일리지 2000 이상인 회원 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE membership_date >= CURDATE() AND approved = 1 AND mileage >= 2000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0085",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "활성 회비가 유효한 마일리지 500 이상인 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE enabled = 1 AND membership_date >= CURDATE() AND mileage >= 500 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0086",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인된 회비가 유효한 회원의 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approved = 1 AND membership_date >= CURDATE() LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0087",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 회비가 유효한 마일리지 5000 이상인 회원 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND membership_date >= CURDATE() AND mileage >= 5000 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0088",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 활성 승인된 회원 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND enabled = 1 AND approved = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0089",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "활성 승인된 승인 대기 중인 회원의 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE enabled = 1 AND approved = 1 AND approve_ready = 1 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0090",
+    "pattern": 3,
+    "pattern_name": "다중 조건 AND",
+    "question": "승인 대기 중인 회비가 유효한 활성 마일리지 1500 이상인 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE approve_ready = 1 AND membership_date >= CURDATE() AND enabled = 1 AND mileage >= 1500 LIMIT 100;",
+    "tables": [
+      "sc_users"
+    ]
+  },
+  {
+    "id": "tgt_0091",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원 목록을 보여줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0092",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "정회원 등급의 회원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0093",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0094",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원은 총 몇 명이지?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0095",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원을 찾아줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0096",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원을 보여줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0097",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "정회원 등급의 회원을 보여줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0098",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "정회원 등급의 회원을 조회해줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0099",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원을 찾아줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0100",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원을 알려줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0101",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원은 총 몇 명이지?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0102",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0103",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0104",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원을 알려줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0105",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "정회원 등급의 회원의 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0106",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "정회원 등급의 회원은 총 몇 명이지?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0107",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원 목록을 보여줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0108",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원을 조회해줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0109",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0110",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "정회원 등급의 회원 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0111",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0112",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0113",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0114",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0115",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "종신회원 등급의 회원 리스트를 보여줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '종신회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0116",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원 리스트를 보여줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0117",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "정회원 등급의 회원을 알려줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0118",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "정회원 등급의 회원 리스트를 보여줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0119",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "준회원 등급의 회원을 조회해줘",
+    "sql": "SELECT u.USER_NO FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '준회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0120",
+    "pattern": 4,
+    "pattern_name": "sc_class JOIN (등급명 조회)",
+    "question": "정회원 등급의 회원은 몇 명인가요?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class"
+    ]
+  },
+  {
+    "id": "tgt_0121",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 90000원을 초과한 회원을 조회해줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 90000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0122",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 170000원을 초과한 회원을 알려줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 170000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0123",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 80000원을 초과한 회원을 찾아줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 80000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0124",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 20000원을 초과한 회원을 알려줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 20000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0125",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 10000원을 초과한 회원을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 10000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0126",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 160000원을 초과한 회원을 조회해줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 160000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0127",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 210000원을 초과한 회원 목록을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 210000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0128",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 120000원을 초과한 회원을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 120000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0129",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 40000원을 초과한 회원을 알려줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 40000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0130",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 480000원을 초과한 회원 리스트를 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 480000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0131",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 340000원을 초과한 회원 목록을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 340000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0132",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 480000원을 초과한 회원 목록을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 480000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0133",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 310000원을 초과한 회원 리스트를 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 310000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0134",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 500000원을 초과한 회원을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 500000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0135",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 330000원을 초과한 회원을 조회해줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 330000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0136",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 70000원을 초과한 회원 리스트를 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 70000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0137",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 330000원을 초과한 회원을 알려줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 330000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0138",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 400000원을 초과한 회원 목록을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 400000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0139",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 470000원을 초과한 회원을 찾아줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 470000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0140",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 340000원을 초과한 회원을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 340000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0141",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 300000원을 초과한 회원을 찾아줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 300000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0142",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 20000원을 초과한 회원 목록을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 20000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0143",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 280000원을 초과한 회원을 찾아줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 280000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0144",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 460000원을 초과한 회원 리스트를 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 460000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0145",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 50000원을 초과한 회원 목록을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 50000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0146",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 210000원을 초과한 회원을 조회해줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 210000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0147",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 100000원을 초과한 회원 목록을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 100000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0148",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 90000원을 초과한 회원을 보여줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 90000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0149",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 400000원을 초과한 회원을 찾아줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 400000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0150",
+    "pattern": 5,
+    "pattern_name": "sc_user_orders JOIN (결제 이력)",
+    "question": "결제 금액이 380000원을 초과한 회원을 조회해줘",
+    "sql": "SELECT DISTINCT u.USER_NO FROM sc_users u JOIN sc_user_orders o ON u.USER_NO = o.user_no WHERE o.price > 380000 AND o.confirm = 1 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_user_orders"
+    ]
+  },
+  {
+    "id": "tgt_0151",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2026년 겨울 학술대회의 개최 장소는 무엇인가요?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'winter' AND year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0152",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "개최일 순으로 여름 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'summer' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0153",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "춘계 학술대회를 개최일 순으로 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'spring' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0154",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2024년 여름 학술대회의 개최 장소를 보여줘",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'summer' AND year = 2024 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0155",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "개최일 순으로 봄 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'spring' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0156",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2025년 겨울 학술대회의 개최 장소는?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'winter' AND year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0157",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2027년 동계 학술대회의 개최 장소가 궁금해",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'winter' AND year = 2027 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0158",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "개최일 순으로 동계 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'winter' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0159",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2027년 하계 학술대회의 개최 장소는 무엇인가요?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'summer' AND year = 2027 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0160",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2021년 동계 학술대회의 개최 장소를 알려줘",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'winter' AND year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0161",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2023년 하계 학술대회의 개최 장소가 궁금해",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'summer' AND year = 2023 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0162",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2027년 동계 학술대회의 개최 장소를 알려줘",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'winter' AND year = 2027 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0163",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2022년 하계 학술대회의 개최 장소는?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'summer' AND year = 2022 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0164",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2022년 가을 학술대회의 개최 장소는 무엇인가요?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'fall' AND year = 2022 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0165",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "동계 학술대회를 개최일 순으로 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'winter' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0166",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "개최일 순으로 하계 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'summer' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0167",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2021년 춘계 학술대회의 개최 장소를 보여줘",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'spring' AND year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0168",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "여름 학술대회를 개최일 순으로 정렬해줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'summer' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0169",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2027년 겨울 학술대회의 개최 장소가 궁금해",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'winter' AND year = 2027 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0170",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "개최일 순으로 춘계 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'spring' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0171",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2024년 여름 학술대회의 개최 장소는 무엇인가요?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'summer' AND year = 2024 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0172",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "추계 학술대회를 개최일 순으로 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'fall' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0173",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2022년 겨울 학술대회의 개최 장소는?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'winter' AND year = 2022 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0174",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2018년 가을 학술대회의 개최 장소는?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'fall' AND year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0175",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2020년 가을 학술대회의 개최 장소는 무엇인가요?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'fall' AND year = 2020 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0176",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "겨울 학술대회를 개최일 순으로 정렬해줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'winter' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0177",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "개최일 순으로 가을 학술대회 목록을 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'fall' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0178",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "봄 학술대회를 개최일 순으로 보여줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'spring' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0179",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "2024년 겨울 학술대회의 개최 장소는 무엇인가요?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'winter' AND year = 2024 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0180",
+    "pattern": 6,
+    "pattern_name": "sc_conf_conference 단독",
+    "question": "봄 학술대회를 개최일 순으로 정렬해줘",
+    "sql": "SELECT nameKor, conferenceStartDate FROM sc_conf_conference WHERE season = 'spring' ORDER BY conferenceStartDate LIMIT 100;",
+    "tables": [
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0181",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2020년 학술대회 중 논문 등록비가 책정된 대회를 조회해줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2020 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0182",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2025년 학술대회 중 논문 등록비가 책정된 대회를 보여줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2025 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0183",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2019년 학술대회의 등록비 항목과 금액 목록을 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2019 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0184",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2021년 학술대회의 등록비 항목과 금액 리스트를 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0185",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2026년 학술대회의 등록비 항목과 금액을 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0186",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2023년 학술대회의 등록비 항목과 금액을 알려줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2023 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0187",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2019년 학술대회 중 논문 등록비가 책정된 대회 목록을 보여줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2019 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0188",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2026년 학술대회 중 논문 등록비가 책정된 대회를 보여줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2026 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0189",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2023년 학술대회 중 논문 등록비가 책정된 대회를 찾아줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2023 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0190",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2020년 학술대회의 등록비 항목과 금액을 알려줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2020 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0191",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2020년 학술대회 중 논문 등록비가 책정된 대회를 찾아줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2020 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0192",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2025년 학술대회의 등록비 항목과 금액을 조회해줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0193",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2027년 학술대회의 등록비 항목과 금액을 조회해줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2027 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0194",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2027년 학술대회의 등록비 항목과 금액을 찾아줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2027 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0195",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2023년 학술대회의 등록비 항목과 금액 목록을 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2023 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0196",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2025년 학술대회의 등록비 항목과 금액을 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0197",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2022년 학술대회 중 논문 등록비가 책정된 대회를 보여줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2022 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0198",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2026년 학술대회의 등록비 항목과 금액 리스트를 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0199",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2022년 학술대회의 등록비 항목과 금액 목록을 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2022 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0200",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2027년 학술대회 중 논문 등록비가 책정된 대회 리스트를 보여줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2027 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0201",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2025년 학술대회 중 논문 등록비가 책정된 대회를 찾아줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2025 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0202",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2018년 학술대회의 등록비 항목과 금액을 조회해줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0203",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2026년 학술대회의 등록비 항목과 금액 목록을 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0204",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2019년 학술대회 중 논문 등록비가 책정된 대회를 알려줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2019 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0205",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2018년 학술대회의 등록비 항목과 금액 리스트를 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0206",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2025년 학술대회 중 논문 등록비가 책정된 대회를 조회해줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2025 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0207",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2020년 학술대회의 등록비 항목과 금액을 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2020 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0208",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2024년 학술대회의 등록비 항목과 금액을 보여줘",
+    "sql": "SELECT f.name, f.amount FROM sc_conf_fee f JOIN sc_conf_conference c ON f.conf_id = c.id WHERE c.year = 2024 LIMIT 100;",
+    "tables": [
+      "sc_conf_fee",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0209",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2022년 학술대회 중 논문 등록비가 책정된 대회를 찾아줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2022 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0210",
+    "pattern": 7,
+    "pattern_name": "sc_conf_fee JOIN",
+    "question": "2027년 학술대회 중 논문 등록비가 책정된 대회를 보여줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE c.year = 2027 AND f.manuscript_fee = 1 LIMIT 100;",
+    "tables": [
+      "sc_conf_conference",
+      "sc_conf_fee"
+    ]
+  },
+  {
+    "id": "tgt_0211",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2023년 춘계 학술대회 등록자의 소속 기관을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'spring' AND c.year = 2023 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0212",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2027년 하계 학술대회 등록자의 소속 기관을 찾아줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'summer' AND c.year = 2027 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0213",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2026년 봄 학술대회 등록자의 소속 기관 리스트를 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'spring' AND c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0214",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2026년 동계 학술대회 등록자의 소속 기관 목록을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'winter' AND c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0215",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2018년 여름 학술대회 등록자의 소속 기관을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'summer' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0216",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2021년 동계 학술대회 등록자의 소속 기관을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'winter' AND c.year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0217",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2021년 하계 학술대회 등록자의 소속 기관을 알려줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'summer' AND c.year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0218",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2022년 추계 학술대회 등록자의 소속 기관 목록을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'fall' AND c.year = 2022 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0219",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2027년 봄 학술대회 등록자의 소속 기관을 알려줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'spring' AND c.year = 2027 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0220",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2020년 하계 학술대회 등록자의 소속 기관을 알려줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'summer' AND c.year = 2020 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0221",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2018년 가을 학술대회 등록자의 소속 기관 리스트를 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'fall' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0222",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2025년 동계 학술대회 등록자의 소속 기관을 조회해줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'winter' AND c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0223",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2021년 겨울 학술대회 등록자의 소속 기관을 조회해줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'winter' AND c.year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0224",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2025년 가을 학술대회 등록자의 소속 기관을 알려줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'fall' AND c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0225",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2025년 겨울 학술대회 등록자의 소속 기관을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'winter' AND c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0226",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2020년 여름 학술대회 등록자의 소속 기관을 알려줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'summer' AND c.year = 2020 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0227",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2018년 가을 학술대회 등록자의 소속 기관을 찾아줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'fall' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0228",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2026년 여름 학술대회 등록자의 소속 기관 목록을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'summer' AND c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0229",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2019년 봄 학술대회 등록자의 소속 기관을 알려줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'spring' AND c.year = 2019 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0230",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2026년 겨울 학술대회 등록자의 소속 기관을 알려줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'winter' AND c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0231",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2021년 하계 학술대회 등록자의 소속 기관 리스트를 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'summer' AND c.year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0232",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2024년 동계 학술대회 등록자의 소속 기관 목록을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'winter' AND c.year = 2024 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0233",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2021년 여름 학술대회 등록자의 소속 기관 리스트를 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'summer' AND c.year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0234",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2021년 봄 학술대회 등록자의 소속 기관 목록을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'spring' AND c.year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0235",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2023년 동계 학술대회 등록자의 소속 기관을 알려줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'winter' AND c.year = 2023 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0236",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2022년 추계 학술대회 등록자의 소속 기관 리스트를 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'fall' AND c.year = 2022 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0237",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2025년 가을 학술대회 등록자의 소속 기관을 조회해줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'fall' AND c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0238",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2018년 춘계 학술대회 등록자의 소속 기관을 보여줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'spring' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0239",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2026년 추계 학술대회 등록자의 소속 기관을 찾아줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'fall' AND c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0240",
+    "pattern": 8,
+    "pattern_name": "sc_conf_registrant JOIN",
+    "question": "2022년 하계 학술대회 등록자의 소속 기관을 알려줘",
+    "sql": "SELECT DISTINCT r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'summer' AND c.year = 2022 LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0241",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2019년 학술대회에 등록한 사람 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2019 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0242",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "정회원이면서 2024년 학술대회에 등록한 사람 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '정회원' AND c.year = 2024 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0243",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2025년 학술대회에 등록한 사람 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0244",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "정회원이면서 2025년 학술대회에 등록한 사람의 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '정회원' AND c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0245",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2018년 학술대회에 등록한 사람 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0246",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2027년 학술대회에 등록한 사람은 몇 명인가요?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2027 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0247",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2020년 학술대회에 등록한 사람은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2020 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0248",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2018년 학술대회에 등록한 사람의 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0249",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2021년 학술대회에 등록한 사람의 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0250",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2020년 학술대회에 등록한 사람 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2020 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0251",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2019년 학술대회에 등록한 사람의 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2019 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0252",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2019년 학술대회에 등록한 사람의 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2019 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0253",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2026년 학술대회에 등록한 사람은 총 몇 명이지?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0254",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2026년 학술대회에 등록한 사람 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0255",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2025년 학술대회에 등록한 사람 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0256",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2024년 학술대회에 등록한 사람은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2024 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0257",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2018년 학술대회에 등록한 사람은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0258",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "정회원이면서 2023년 학술대회에 등록한 사람은 몇 명인가요?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '정회원' AND c.year = 2023 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0259",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2019년 학술대회에 등록한 사람은 총 몇 명이지?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2019 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0260",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2023년 학술대회에 등록한 사람은 몇 명인가요?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2023 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0261",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "정회원이면서 2023년 학술대회에 등록한 사람의 수는?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '정회원' AND c.year = 2023 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0262",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2020년 학술대회에 등록한 사람은 총 몇 명이지?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2020 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0263",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2025년 학술대회에 등록한 사람 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0264",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "정회원이면서 2019년 학술대회에 등록한 사람 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '정회원' AND c.year = 2019 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0265",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "정회원이면서 2018년 학술대회에 등록한 사람은 총 몇 명이지?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '정회원' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0266",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "정회원이면서 2018년 학술대회에 등록한 사람은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '정회원' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0267",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2026년 학술대회에 등록한 사람 수를 알려줘",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2026 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0268",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "종신회원이면서 2025년 학술대회에 등록한 사람은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '종신회원' AND c.year = 2025 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0269",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "정회원이면서 2021년 학술대회에 등록한 사람은 몇 명이야?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '정회원' AND c.year = 2021 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0270",
+    "pattern": 9,
+    "pattern_name": "크로스 도메인 (회원+학술대회)",
+    "question": "준회원이면서 2018년 학술대회에 등록한 사람은 총 몇 명이지?",
+    "sql": "SELECT COUNT(DISTINCT u.USER_NO) AS cnt FROM sc_users u JOIN sc_class cl ON u.class = cl.id JOIN sc_conf_registrant r ON u.USER_NO = r.user_no JOIN sc_conf_conference c ON r.conf_id = c.id WHERE cl.name_kor = '준회원' AND c.year = 2018 LIMIT 100;",
+    "tables": [
+      "sc_users",
+      "sc_class",
+      "sc_conf_registrant",
+      "sc_conf_conference"
+    ]
+  },
+  {
+    "id": "tgt_0271",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인된 등록자의 영문명 리스트를 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0272",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자의 영문명 리스트를 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0273",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0274",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자의 영문명 목록을 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0275",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인된 등록자의 영문명을 알려줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0276",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인된 등록자 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE order_confirm_date IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0277",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출하지 않은 등록자 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE manuscript_submit_id IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0278",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자 인원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0279",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출한 등록자의 영문명을 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE manuscript_submit_id IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0280",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출하지 않은 등록자의 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE manuscript_submit_id IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0281",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인된 등록자는 총 몇 명이지?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE order_confirm_date IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0282",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인된 등록자의 영문명 목록을 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0283",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출하지 않은 등록자의 영문명을 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE manuscript_submit_id IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0284",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자의 영문명을 조회해줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0285",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출한 등록자의 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE manuscript_submit_id IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0286",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자는 총 몇 명이지?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0287",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자의 영문명을 알려줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0288",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자의 영문명을 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0289",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자의 영문명을 찾아줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0290",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출하지 않은 등록자의 영문명 목록을 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE manuscript_submit_id IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0291",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출하지 않은 등록자 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE manuscript_submit_id IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0292",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출한 등록자의 영문명 리스트를 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE manuscript_submit_id IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0293",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출하지 않은 등록자는 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE manuscript_submit_id IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0294",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출하지 않은 등록자의 영문명 리스트를 보여줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE manuscript_submit_id IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0295",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출한 등록자의 영문명을 알려줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE manuscript_submit_id IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0296",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인된 등록자의 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE order_confirm_date IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0297",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인된 등록자의 영문명을 찾아줘",
+    "sql": "SELECT name_eng FROM sc_conf_registrant WHERE order_confirm_date IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0298",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인된 등록자 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE order_confirm_date IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0299",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "논문을 제출한 등록자 수를 알려줘",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE manuscript_submit_id IS NOT NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  },
+  {
+    "id": "tgt_0300",
+    "pattern": 10,
+    "pattern_name": "IS NULL / IS NOT NULL 패턴",
+    "question": "결제가 확인되지 않은 등록자는 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE order_confirm_date IS NULL LIMIT 100;",
+    "tables": [
+      "sc_conf_registrant"
+    ]
+  }
+]

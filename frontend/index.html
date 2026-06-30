@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학회 DB 조회</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+</head>
+<body>
+  <div class="layout">
+    <!-- 좌측 사이드바 -->
+    <aside class="sidebar">
+      <div class="brand">🔍 학회 DB 조회</div>
+      <div class="brand-sub">자연어 질문 → SQL 자동 변환</div>
+
+      <div class="ex-title">예시 질문</div>
+
+      <div class="ex-head">👤 회원</div>
+      <button class="ex">승인 대기 중인 회원 목록 보여줘</button>
+      <button class="ex">마일리지 상위 10명 알려줘</button>
+      <button class="ex">등급별 회원 수 집계해줘</button>
+      <button class="ex">비활성 회원이 몇 명이야?</button>
+      <button class="ex">회비 만료된 정회원 목록</button>
+
+      <div class="ex-head">💳 결제</div>
+      <button class="ex">결제 확인된 주문 수는?</button>
+      <button class="ex">환불된 주문 목록 보여줘</button>
+      <button class="ex">결제 수단별 주문 수</button>
+
+      <div class="ex-head">🏛️ 행사</div>
+      <button class="ex">2026년 하계 행사 등록자 수</button>
+      <button class="ex">기관별 등록자 수를 많은 순으로</button>
+      <button class="ex">논문을 제출하지 않은 등록자 수</button>
+
+      <button id="resetBtn" class="reset-btn">🗑️ 대화 초기화</button>
+    </aside>
+
+    <!-- 메인 -->
+    <section class="main">
+      <div class="cards">
+        <div class="card"><b>👤 회원</b><span>등급·마일리지, 가입·승인 상태, 회비 만료 등을 조회할 수 있습니다.</span></div>
+        <div class="card"><b>💳 결제</b><span>주문 내역, 환불 현황, 결제 수단별 통계를 확인할 수 있습니다.</span></div>
+        <div class="card"><b>🏛️ 행사</b><span>학술 행사 등록자 수, 등록비·선택 항목 등을 조회할 수 있습니다.</span></div>
+      </div>
+
+      <div id="chat" class="chat"></div>
+
+      <div class="composer">
+        <input id="input" type="text" placeholder="질문을 입력하세요. 예: 마일리지 높은 사람 10명 뽑아줘" autocomplete="off">
+        <button id="sendBtn" title="전송">➤</button>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

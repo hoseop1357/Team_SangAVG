@@ -1,0 +1,82 @@
+[
+  {
+    "question": "2026년 춘계 학술대회에 등록한 정회원 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id WHERE c.season = 'spring' AND c.conferenceStartDate LIKE '2026%' AND r.fee_code IN (SELECT code FROM sc_conf_fee WHERE annual_fee = 1) LIMIT 100;",
+    "tables": ["sc_conf_registrant", "sc_conf_conference", "sc_conf_fee"]
+  },
+  {
+    "question": "현재 유효한 회비를 가진 회원 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE membership_date >= CURDATE() LIMIT 100;",
+    "tables": ["sc_users"]
+  },
+  {
+    "question": "회비가 만료된 회원은 몇 명이야?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE membership_date < CURDATE() LIMIT 100;",
+    "tables": ["sc_users"]
+  },
+  {
+    "question": "승인 완료된 활성 회원 목록을 보여줘",
+    "sql": "SELECT USER_NO FROM sc_users WHERE approved = 1 AND enabled = 1 LIMIT 100;",
+    "tables": ["sc_users"]
+  },
+  {
+    "question": "1등급 회원 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE class = 1 LIMIT 100;",
+    "tables": ["sc_users"]
+  },
+  {
+    "question": "정회원 등급의 회원 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+    "tables": ["sc_users", "sc_class"]
+  },
+  {
+    "question": "종신회원 등급의 이름과 유형을 알려줘",
+    "sql": "SELECT name_kor, type FROM sc_class WHERE type = 'LIFETIME' LIMIT 100;",
+    "tables": ["sc_class"]
+  },
+  {
+    "question": "환불되지 않은 결제 총액은?",
+    "sql": "SELECT SUM(price) AS total FROM sc_user_orders WHERE refund = 0 AND confirm = 1 LIMIT 100;",
+    "tables": ["sc_user_orders"]
+  },
+  {
+    "question": "결제 금액이 가장 큰 주문 한 건을 보여줘",
+    "sql": "SELECT id, user_no, price FROM sc_user_orders ORDER BY price DESC LIMIT 1;",
+    "tables": ["sc_user_orders"]
+  },
+  {
+    "question": "2026년에 개최되는 학술대회 이름을 알려줘",
+    "sql": "SELECT id, nameKor FROM sc_conf_conference WHERE year = 2026 ORDER BY nameKor LIMIT 100;",
+    "tables": ["sc_conf_conference"]
+  },
+  {
+    "question": "추계 학술대회의 개최 장소는?",
+    "sql": "SELECT nameKor, location FROM sc_conf_conference WHERE season = 'fall' LIMIT 100;",
+    "tables": ["sc_conf_conference"]
+  },
+  {
+    "question": "연회비 등록비 항목의 금액은 얼마야?",
+    "sql": "SELECT name, amount FROM sc_conf_fee WHERE annual_fee = 1 LIMIT 100;",
+    "tables": ["sc_conf_fee"]
+  },
+  {
+    "question": "논문 등록비가 책정된 학술대회 이름을 보여줘",
+    "sql": "SELECT c.nameKor FROM sc_conf_conference c JOIN sc_conf_fee f ON c.id = f.conf_id WHERE f.manuscript_fee = 1 LIMIT 100;",
+    "tables": ["sc_conf_conference", "sc_conf_fee"]
+  },
+  {
+    "question": "논문을 제출하지 않은 등록자 수는?",
+    "sql": "SELECT COUNT(*) AS cnt FROM sc_conf_registrant WHERE manuscript_submit_id IS NULL LIMIT 100;",
+    "tables": ["sc_conf_registrant"]
+  },
+  {
+    "question": "소속 기관별 등록자 수를 많은 순으로 보여줘",
+    "sql": "SELECT institution, COUNT(*) AS cnt FROM sc_conf_registrant GROUP BY institution ORDER BY cnt DESC LIMIT 100;",
+    "tables": ["sc_conf_registrant"]
+  },
+  {
+    "question": "2026년 춘계 학술대회에 등록한 사람들의 이름과 소속은?",
+    "sql": "SELECT u.USER_NO, r.name_eng, r.institution FROM sc_conf_registrant r JOIN sc_conf_conference c ON r.conf_id = c.id JOIN sc_users u ON r.user_no = u.USER_NO WHERE c.season = 'spring' AND c.year = 2026 LIMIT 100;",
+    "tables": ["sc_conf_registrant", "sc_conf_conference", "sc_users"]
+  }
+]

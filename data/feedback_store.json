@@ -1,0 +1,14 @@
+{
+  "_comment": "피드백 플라이휠. 사용자가 수정한 SQL을 누적해 다음 쿼리의 RAG 예제/재학습 데이터로 활용한다. 형식 샘플 1건만 포함.",
+  "version": 1,
+  "entries": [
+    {
+      "timestamp": "2026-06-12T10:30:00",
+      "question": "정회원 수는?",
+      "predicted_sql": "SELECT COUNT(*) AS cnt FROM sc_users WHERE class = '정회원' LIMIT 100;",
+      "corrected_sql": "SELECT COUNT(*) AS cnt FROM sc_users u JOIN sc_class c ON u.class = c.id WHERE c.name_kor = '정회원' LIMIT 100;",
+      "user_action": "edited",
+      "note": "등급명(한글)은 sc_class JOIN 필요 — class 컬럼은 숫자 ID"
+    }
+  ]
+}
